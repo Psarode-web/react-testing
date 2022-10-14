@@ -6,7 +6,7 @@ test("render component without name",()=>{
    expect(linkElement).toBeInTheDocument();
 })
 
-test("render component with name",()=>{
+test("render component with namee",()=>{
     render(<Greet name="Piyush" />);
     const linkElement = screen.getByText("Hello Piyush");
     expect(linkElement).toBeInTheDocument();
